@@ -1,0 +1,52 @@
+﻿section#content form {
+	border: 3px solid darkorange;
+	margin: 0 auto;
+	padding: 10px;
+	width: 700px;
+}
+
+section#content form h2 {
+	text-align: center;
+}
+
+section#content form input {
+	padding: 4px;
+	width: 650px;
+}
+
+div#page1 img {
+	height: 50px;
+	width: 100px;
+}
+
+section#content form button {
+	background-color: darkblue;
+	border: none;
+	border-radius: 6px;
+	color: white;
+	cursor: pointer;
+	padding: 4px 10px;
+}
+
+audio#captchaAudio {
+	display: none;
+}
+
+button.right {
+	float: right;
+}
+
+section#content form select {
+	padding: 4px;
+	width: 200px;
+}
+
+@media screen and (max-width: 740px) {
+	section #content form {
+		width: 350px;
+	}
+
+	section#content form input {
+		width: 300px;
+	}
+}
